@@ -96,7 +96,7 @@ AQ
 54.92%
 $0
 Unclassified
-&nbsp;
+
 10
 Antigua and Barbuda
 AG
@@ -151,7 +151,7 @@ AP
 0.00%
 $0
 Unclassified
-&nbsp;
+
 15
 Australia
 AU
@@ -349,7 +349,7 @@ BV
 0.00%
 $0
 Unclassified
-&nbsp;
+
 33
 Brazil
 BR
@@ -371,7 +371,7 @@ IO
 0.00%
 $0
 Unclassified
-&nbsp;
+
 35
 British Virgin Islands
 VG
@@ -503,7 +503,7 @@ EA
 55.00%
 $0
 Unclassified
-&nbsp;
+
 47
 Chad
 TD
@@ -547,7 +547,7 @@ CX
 54.97%
 $0
 Unclassified
-&nbsp;
+
 51
 Clipperton Island
 CP
@@ -558,7 +558,7 @@ CP
 0.00%
 $0
 Unclassified
-&nbsp;
+
 52
 Cocos and Keeling Islands
 CC
@@ -569,7 +569,7 @@ CC
 54.87%
 $0
 Unclassified
-&nbsp;
+
 53
 Colombia
 CO
@@ -932,7 +932,7 @@ TF
 0.00%
 $0
 Unclassified
-&nbsp;
+
 86
 Gabon
 GA
@@ -1141,7 +1141,7 @@ HM
 0.00%
 $0
 Unclassified
-&nbsp;
+
 105
 Historial and Legacy
 ZZ
@@ -1152,7 +1152,7 @@ ZZ
 0.00%
 $0
 Unclassified
-&nbsp;
+
 106
 Holy See
 VA
@@ -1801,7 +1801,7 @@ NT
 0.00%
 $0
 Unclassified
-&nbsp;
+
 165
 New Caledonia
 NC
@@ -2362,7 +2362,7 @@ GS
 0.00%
 $0
 Unclassified
-&nbsp;
+
 216
 South Sudan
 SS
@@ -2703,7 +2703,7 @@ UM
 0.00%
 $0
 Unclassified
-&nbsp;
+
 247
 United States Virgin Islands
 VI
