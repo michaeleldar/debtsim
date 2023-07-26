@@ -1,11 +1,12 @@
+import json
+
 # Open the input file for reading
 with open("pop2.txt", "r") as file_read:
     lines = file_read.readlines()
 
-# Initialize lists to store the extracted data
-country_names = []
-country_codes = []
-populations = []
+# Initialize dictionaries to store the extracted data
+country_codes_data = {}
+country_data = {}
 
 # Loop through the lines and extract the data
 for i in range(0, len(lines), 11):  # Assuming each entry is 11 lines long
@@ -18,13 +19,22 @@ for i in range(0, len(lines), 11):  # Assuming each entry is 11 lines long
         "Netherlands Antilles",
         "Ceuta and Melilla",
     }:
-        country_names.append(country_name)
-        country_codes.append(country_code)
-        populations.append(population)
+        country_codes_data[country_code.lower()] = country_name
+        country_data[country_name] = {
+            "code": country_code,
+            "population": int(
+                population.replace(",", "")
+            ),  # Convert population to integer
+        }
 
-# Write the extracted data to a new file named "data.txt"
-with open("data.txt", "w") as file2:
-    for name, code, population in zip(country_names, country_codes, populations):
-        file2.write(f"{name}\n{code}\n{population}\n")
+# Write the data to a JSON file named "country-codes.json"
+with open("country-codes.json", "w") as json_file1:
+    json.dump(country_codes_data, json_file1, indent=4)
 
-print("Extraction and writing to 'data.txt' complete.")
+# Write the data to a JSON file named "country_data.json"
+with open("country_data.json", "w") as json_file2:
+    json.dump(country_data, json_file2, indent=4)
+
+print("Conversion to 'country-codes.json' and 'country_data.json' complete.")
+
+print("Conversion to 'country_data.json' complete.")
